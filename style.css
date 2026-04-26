@@ -1,0 +1,27 @@
+body {
+    /* INSERT BACKGROUND IMAGE HERE: Put your image filename inside the quotes below */
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #cccccc; 
+    height: 100vh;
+}
+
+.glass-card {
+    background-color: #ffffffed; 
+    border: 2px solid #dee2e6;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px #00000040;
+    margin-top: 10%;
+}
+
+h1, p {
+    color: #212529;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: #212529;
+}
